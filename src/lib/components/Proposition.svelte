@@ -33,12 +33,22 @@
 		margin-block: var(--size-7);
 	}
 
-	[data-section-type='Proposition'] :global(> p:first-of-type) {
+	[data-section-type='Proposition'] :global(> p:first-of-type),
+	[data-section-type='Proposition'] :global(> p:nth-of-type(2)) {
 		max-inline-size: 900px;
 		margin-inline: auto;
 		text-align: center;
 		font-size: var(--font-size-5);
 		font-weight: var(--font-weight-9);
+	}
+
+	[data-section-type='Proposition'] :global(> p:nth-of-type(2)::after) {
+		display: block;
+		content: '..';
+		line-height: 0.5;
+		font-size: var(--font-size-8);
+		margin-block-end: var(--size-9);
+		letter-spacing: var(--font-letterspacing-4);
 	}
 
 	[data-section-type='Proposition'] :global(h3) {
@@ -48,6 +58,10 @@
 
 	[data-section-type='Proposition'] :global(em) {
 		font-style: normal;
+	}
+
+	[data-section-type='Proposition'] :global(a) {
+		color: var(--purp);
 	}
 
 	[data-section-type='Proposition'] :global(h3::before) {

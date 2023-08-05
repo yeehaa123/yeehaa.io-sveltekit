@@ -24,10 +24,6 @@
 		justify-content: space-between;
 	}
 
-	a:visited {
-		color: var(--white);
-	}
-
 	@media (--md-n-above) {
 		header {
 			padding-inline: var(--size-8);

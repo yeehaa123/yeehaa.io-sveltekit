@@ -9,7 +9,9 @@ title: Index
 Innovation does not begin with radical, structural transformation, it starts with barely perceptible shifts
 
 
-Yeehaa is an [Ecosystem Architect](../Ideas/Ecosystem%20Architecture.md). Designing virtual spaces for high-trust networks through a variety of approaches, including:
+Yeehaa is an [Ecosystem Architect](../Ideas/Ecosystem%20Architecture.md). Designing virtual spaces for high-trust networks through a variety of approaches 
+
+including
 
 :::note{.principle}
 

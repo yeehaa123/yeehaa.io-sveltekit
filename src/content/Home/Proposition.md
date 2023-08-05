@@ -3,7 +3,9 @@ title: Proposition
 order: 2
 ---
 
-Yeehaa is an [Ecosystem Architect](../../Ideas/Ecosystem%20Architecture.md). Designing virtual spaces for high-trust networks through a variety of approaches, including:
+Yeehaa is an [Ecosystem Architect](../../Ideas/Ecosystem%20Architecture.md). Designing virtual spaces for high-trust networks through a variety of approaches 
+
+including
 
 :::note{.principle}
 
