@@ -4,8 +4,6 @@
 @import '@fontsource/montserrat-alternates/900.css';
 
 :root {
-	--font-sans: 'Montserrat Alternates', sans-serif;
-	--font-accent: 'Londrina Solid', sans-serif;
 	--sun: #f9a505;
 	--purp: #773670;
 	--curtains: #2e0016;
@@ -16,6 +14,9 @@
 
 html,
 body {
+	--font-sans: 'Montserrat Alternates', sans-serif;
+	--font-accent: 'Londrina Solid', sans-serif;
 	height: 100%;
 	background-color: var(--curtains);
+	font-family: var(--font-sans);
 }

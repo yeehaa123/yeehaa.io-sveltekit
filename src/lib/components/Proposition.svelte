@@ -1,21 +1,27 @@
 <script>
 	export let content;
 	export let title;
-	import SectionWrapper from '$lib/components/SectionWrapper.svelte';
+	import SectionWrapper from './SectionWrapper.svelte';
 </script>
 
-<section data-section-type={title}>
-	<SectionWrapper>
+<SectionWrapper --color="var(--curtains)" --background-color="var(--sun)">
+	<div class="content" data-section-type={title}>
 		<svelte:component this={content} {title} />
-	</SectionWrapper>
-</section>
+	</div>
+</SectionWrapper>
 
 <style>
 	@import 'open-props/media';
 
 	section {
 		background-color: var(--sun);
-		color: var(--curtains);
+	}
+
+	div {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-column-gap: 0px;
+		grid-row-gap: 0px;
 	}
 
 	[data-section-type='Proposition'] :global(.principle) {
@@ -27,7 +33,7 @@
 		margin-block: var(--size-7);
 	}
 
-	[data-section-type='Proposition'] :global(:not(.principle) > p:first-of-type) {
+	[data-section-type='Proposition'] :global(> p:first-of-type) {
 		max-inline-size: 900px;
 		margin-inline: auto;
 		text-align: center;

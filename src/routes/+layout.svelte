@@ -1,7 +1,7 @@
 <script lang="ts">
 	import 'open-props/normalize';
-	import '../app.css';
 	import Header from './Header.svelte';
+	import '../app.css';
 </script>
 
 <div class="layout">
