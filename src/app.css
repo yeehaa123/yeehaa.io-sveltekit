@@ -1,0 +1,21 @@
+@import '@fontsource/londrina-solid/300.css';
+@import '@fontsource/montserrat-alternates/400.css';
+@import '@fontsource/montserrat-alternates/700.css';
+@import '@fontsource/montserrat-alternates/900.css';
+
+:root {
+	--font-sans: 'Montserrat Alternates', sans-serif;
+	--font-accent: 'Londrina Solid', sans-serif;
+	--sun: #f9a505;
+	--purp: #773670;
+	--curtains: #2e0016;
+	--dark: #0f0d0d;
+	--white: #ffffff;
+	--fire: #e14616;
+}
+
+html,
+body {
+	height: 100%;
+	background-color: var(--curtains);
+}

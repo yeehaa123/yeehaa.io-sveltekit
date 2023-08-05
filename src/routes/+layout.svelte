@@ -1,0 +1,26 @@
+<script lang="ts">
+	import 'open-props/normalize';
+	import '../app.css';
+	import Header from './Header.svelte';
+</script>
+
+<div class="layout">
+	<Header />
+	<main>
+		<slot />
+	</main>
+</div>
+
+<style lang="postcss">
+	.layout {
+		height: 100%;
+		display: grid;
+		grid-template-rows: auto 1fr auto;
+	}
+
+	@media (min-width: 1440px) {
+		.layout {
+			padding-inline: 0;
+		}
+	}
+</style>
