@@ -20,7 +20,7 @@
 		return {
 			...d,
 			component: c[d.title] || Section,
-			...(styles[d.title] || { color: 'curtains', background: 'white' })
+			...(styles[d.title] || { color: 'white', background: 'curtains' })
 		};
 	});
 </script>

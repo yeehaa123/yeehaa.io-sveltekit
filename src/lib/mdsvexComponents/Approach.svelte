@@ -1,10 +1,19 @@
 <script>
 	export let title;
 	import VDD from './Value Driven Development.svelte';
+	import VoT from './Vessel of Transformation.svelte';
+	import EL from './Engagement Loops.svelte';
+	import OG from './Organic Governance.svelte';
+	export const svgs = {
+		'Value Driven Development': VDD,
+		'Vessel of Transformation': VoT,
+		'Engagement Loops': EL,
+		'Organic Governance': OG
+	};
 </script>
 
 <section data-section-type={title}>
-	<VDD />
+	<svelte:component this={svgs[title]} />
 	<h3>{title}</h3>
 	<p><slot /></p>
 </section>
@@ -24,15 +33,11 @@
 
 	h3 {
 		display: block;
+		color: var(--purp);
 		font-size: var(--font-size-5);
 		margin-block: var(--size-5);
 	}
-	.circle {
-		background-color: var(--gray-5);
-		border-radius: 50%;
-		aspect-ratio: var(--ratio-square);
-		width: 100%;
-	}
+
 	@media (--md-n-above) {
 		section {
 			grid-column: span 2;
