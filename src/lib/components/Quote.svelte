@@ -11,17 +11,17 @@
 	--background-color={`var(--${background})`}
 	--color={`var(--${color})`}
 >
-	<div data-section-type="quote">
+	<div data-section-type={title} data-section-layout="quote">
 		<svelte:component this={content} />
 	</div>
 </SectionWrapper>
 
 <style>
-	[data-section-type='quote'] {
+	[data-section-layout='quote'] {
 		padding-block: var(--size-fluid-8);
 	}
 
-	[data-section-type='quote'] :global(p) {
+	[data-section-layout='quote'] :global(p) {
 		color: var(--white, #fff);
 		text-align: center;
 		font-family: var(--font-sans);
