@@ -20,9 +20,6 @@
 	.content {
 		max-inline-size: var(--size-lg);
 		margin-inline: auto;
-		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		gap: var(--size-9);
 	}
 
 	[data-section-type='Principles'] :global(> p:first-of-type) {
