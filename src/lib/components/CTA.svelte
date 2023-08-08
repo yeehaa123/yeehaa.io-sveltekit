@@ -11,6 +11,7 @@
 	--max-inline-size="1100px"
 	--background-color={`var(--${background})`}
 	--color={`var(--${color})`}
+	--padding-block={0}
 >
 	<div class="content" data-section-type={title}>
 		<svelte:component this={content} />
@@ -23,6 +24,7 @@
 	.content {
 		max-inline-size: var(--size-md);
 		margin-inline: auto;
+		padding-block-start: var(--size-13);
 	}
 
 	[data-section-type='Call To Action'] :global(p) {
@@ -48,13 +50,13 @@
 
 	.cta-wrapper {
 		display: flex;
-		margin-block: var(--size-5);
+		margin-block-start: var(--size-5);
 		justify-content: center;
 	}
 
 	.cta-wrapper a {
 		background-color: var(--purp);
-		color: var(--white, #fff);
+		color: var(--white);
 		text-align: center;
 		font-size: var(--font-size-fluid-2);
 		font-style: normal;
