@@ -37,8 +37,8 @@ How are our *ecosystems* supposed to thrive, if the way they are set up, is brok
 * The rules do not become a goal, but the common goal will determine what rules make sense for everyone.
 
 
-Want to make big change happen together?
+Want to make **Big Change** happen together?
 
 Then let’s start small!
 
-Connect
+[Connect](/about)

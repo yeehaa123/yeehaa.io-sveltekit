@@ -19,7 +19,7 @@
 </SectionWrapper>
 
 <style>
-	[data-section-layout='quote'] :global(p) {
+	[data-section-type='Tagline'] :global(p) {
 		color: var(--white, #fff);
 		text-align: center;
 		font-family: var(--font-sans);

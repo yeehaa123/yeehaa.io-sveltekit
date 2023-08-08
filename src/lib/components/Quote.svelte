@@ -5,7 +5,7 @@
 	export let background;
 	import SectionWrapper from './SectionWrapper.svelte';
 	import Blob from '$lib/blobs/blob2.svelte';
-	import Blobi from '$lib/blobs/blob3.svelte';
+	import Blob2 from '$lib/blobs/blob3.svelte';
 </script>
 
 <SectionWrapper
@@ -14,14 +14,14 @@
 	--color={`var(--${color})`}
 >
 	<Blob slot="top" />
-	<div class="content">
+	<div class="content" data-section-type={title}>
 		<svelte:component this={content} />
 	</div>
-	<Blobi slot="bottom" />
+	<Blob2 slot="bottom" />
 </SectionWrapper>
 
 <style>
-	.content :global(p) {
+	[data-section-type='Problem Statement'] :global(p) {
 		color: var(--white, #fff);
 		text-align: center;
 		font-size: var(--font-size-fluid-2);

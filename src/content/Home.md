@@ -56,8 +56,8 @@ Rizom
 Using *engagement loops* to enhance the collective brain power
 
 
-Want to make big change happen together?
+Want to make **Big Change** happen together?
 
 Then let’s start small!
 
-Connect
+[Connect](/about)
