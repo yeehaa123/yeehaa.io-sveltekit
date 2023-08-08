@@ -6,7 +6,7 @@
 	import SectionWrapper from './SectionWrapper.svelte';
 </script>
 
-<SectionWrapper --color="var(--curtains)" --background-color="var(--sun)">
+<SectionWrapper --background-color={`var(--${background})`} --color={`var(--${color})`}>
 	<div class="content" data-section-type={title}>
 		<svelte:component this={content} />
 	</div>
@@ -15,18 +15,19 @@
 <style>
 	@import 'open-props/media';
 
-	div {
-		max-inline-size: 900px;
+	.content {
+		max-inline-size: var(--size-lg);
 		margin-inline: auto;
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
+		gap: var(--size-9);
 	}
 
 	[data-section-type='Proposition'] :global(> p:first-of-type),
 	[data-section-type='Proposition'] :global(> p:nth-of-type(2)) {
 		grid-column: span 4;
-		margin-block: var(--size-7);
 		text-align: center;
+		line-height: var(--font-lineheight-2);
 		font-size: var(--font-size-5);
 		font-weight: var(--font-weight-9);
 	}
@@ -43,15 +44,15 @@
 		content: '..';
 		line-height: 0.5;
 		font-size: var(--font-size-8);
-		margin-block-end: var(--size-9);
 		letter-spacing: var(--font-letterspacing-4);
-	}
-
-	[data-section-type='Proposition'] :global(em) {
-		font-style: normal;
 	}
 
 	[data-section-type='Proposition'] :global(a) {
 		color: var(--purp);
+	}
+	@media (--md-n-above) {
+		.content {
+			padding-inline: var(--size-9);
+		}
 	}
 </style>

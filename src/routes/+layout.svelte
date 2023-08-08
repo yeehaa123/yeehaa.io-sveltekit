@@ -1,6 +1,7 @@
 <script lang="ts">
 	import 'open-props/normalize';
 	import Header from './Header.svelte';
+	import Footer from './Footer.svelte';
 	import '../app.css';
 </script>
 
@@ -9,6 +10,7 @@
 	<main>
 		<slot />
 	</main>
+	<Footer />
 </div>
 
 <style lang="postcss">

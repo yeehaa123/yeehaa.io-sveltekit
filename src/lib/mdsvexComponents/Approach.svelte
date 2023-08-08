@@ -25,10 +25,10 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		max-inline-size: 300px;
+		max-inline-size: var(--size-xs);
 		justify-self: center;
 		text-align: center;
-		margin-block-end: var(--size-9);
+		padding: var(--size-5);
 	}
 
 	h3 {

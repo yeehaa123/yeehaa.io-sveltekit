@@ -6,11 +6,7 @@
 	import SectionWrapper from './SectionWrapper.svelte';
 </script>
 
-<SectionWrapper
-	--max-inline-size="1100px"
-	--background-color={`var(--${background})`}
-	--color={`var(--${color})`}
->
+<SectionWrapper --background-color={`var(--${background})`} --color={`var(--${color})`}>
 	<div data-section-type={title}>
 		<svelte:component this={content} />
 	</div>

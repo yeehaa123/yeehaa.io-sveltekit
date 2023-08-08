@@ -6,21 +6,29 @@
 	export let data;
 
 	const c = {
-		Tagline: Quote,
+		Tagline: Tagline,
 		Proposition: Proposition,
-		'Problem Statement': Quote
+		'Problem Statement': Quote,
+		Principles: Section,
+		Cases: Section,
+		'Call To Action': Section
 	};
 
 	const styles = {
 		Tagline: { color: 'white', background: 'curtains' },
-		'Problem Statement': { color: 'white', background: 'fire' }
+		Proposition: { color: 'curtains', background: 'sun' },
+		'Problem Statement': { color: 'white', background: 'fire' },
+		Principles: { color: 'white', background: 'purp' },
+		Cases: { color: 'curtains', background: 'sun' },
+		'Call To Action': { color: 'curtains', background: 'sun' }
 	};
 
 	export const components = data.contents.map((d) => {
+		const { title } = d;
 		return {
 			...d,
-			component: c[d.title] || Section,
-			...(styles[d.title] || { color: 'white', background: 'curtains' })
+			component: c[title] || Section,
+			...(styles[title] || { color: 'white', background: 'curtains' })
 		};
 	});
 </script>

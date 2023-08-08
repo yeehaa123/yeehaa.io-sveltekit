@@ -4,6 +4,8 @@
 	export let color;
 	export let background;
 	import SectionWrapper from './SectionWrapper.svelte';
+	import Blob from '$lib/blobs/blob2.svelte';
+	import Blobi from '$lib/blobs/blob3.svelte';
 </script>
 
 <SectionWrapper
@@ -11,16 +13,14 @@
 	--background-color={`var(--${background})`}
 	--color={`var(--${color})`}
 >
+	<Blob slot="top" />
 	<div data-section-type={title} data-section-layout="quote">
 		<svelte:component this={content} />
 	</div>
+	<Blobi slot="bottom" />
 </SectionWrapper>
 
 <style>
-	[data-section-layout='quote'] {
-		padding-block: var(--size-fluid-8);
-	}
-
 	[data-section-layout='quote'] :global(p) {
 		color: var(--white, #fff);
 		text-align: center;
