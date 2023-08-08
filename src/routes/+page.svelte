@@ -3,15 +3,18 @@
 	import Section from '$lib/components/Section.svelte';
 	import Quote from '$lib/components/Quote.svelte';
 	import Proposition from '$lib/components/Proposition.svelte';
+	import Principles from '$lib/components/Principles.svelte';
+	import Cases from '$lib/components/Cases.svelte';
+	import CTA from '$lib/components/CTA.svelte';
 	export let data;
 
 	const c = {
 		Tagline: Tagline,
 		Proposition: Proposition,
 		'Problem Statement': Quote,
-		Principles: Section,
-		Cases: Section,
-		'Call To Action': Section
+		Principles: Principles,
+		Cases: Cases,
+		'Call To Action': CTA
 	};
 
 	const styles = {

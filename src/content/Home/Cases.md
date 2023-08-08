@@ -3,6 +3,8 @@ order: 5
 title: Cases
 ---
 
+Here are some examples of Yeehaa’s principles in action
+
 Intermin
 
 Technology as a [Vessel of Transformation](../../Ideas/Vessel%20of%20Transformation.md) waardoor mensen kijken op een andere manier naar werk en werkprocessen without the need voor reorganisatie

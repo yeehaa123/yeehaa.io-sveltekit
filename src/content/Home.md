@@ -32,7 +32,7 @@ The root cause of this issue, however, lies not in physical presence, but in tru
 Contrary to popular belief, money and technology alone cannot solve this problem. Successful networks thrive on strong moderation and facilitation. They rely on a continuous flow of *timely interventions* that nurture and sustain trust. This ongoing *rhythm*, which simultaneously stabilizes and disrupts, forms the true foundation for innovation.
 
 
-Yeehaa singular approach to create innovative ecosystems is built upon the following principles:
+Yeehaa singular approach to create innovative ecosystems is built upon the following principles
 
 * *Prevent Stagnation*
 * *Celebrate Diversity*
@@ -40,6 +40,8 @@ Yeehaa singular approach to create innovative ecosystems is built upon the follo
 * *Embrace Technology*
 * *Deliver Simplicity*
 
+
+Here are some examples of Yeehaa’s principles in action
 
 Intermin
 

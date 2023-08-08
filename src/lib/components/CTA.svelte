@@ -4,8 +4,7 @@
 	export let color;
 	export let background;
 	import SectionWrapper from './SectionWrapper.svelte';
-	import Blob from '$lib/blobs/blob2.svelte';
-	import Blobi from '$lib/blobs/blob3.svelte';
+	import Blob from '$lib/blobs/blob5.svelte';
 </script>
 
 <SectionWrapper
@@ -13,11 +12,10 @@
 	--background-color={`var(--${background})`}
 	--color={`var(--${color})`}
 >
-	<Blob slot="top" />
 	<div class="content">
 		<svelte:component this={content} />
 	</div>
-	<Blobi slot="bottom" />
+	<Blob slot="bottom" />
 </SectionWrapper>
 
 <style>
