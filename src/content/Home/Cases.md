@@ -5,14 +5,14 @@ title: Cases
 
 Here are some examples of Yeehaa’s principles in action
 
-Intermin
+<Card title="Intermin">
+Technology as a Vessel of Transformation for knowledge management and organizational change
+</Card>
 
-Technology as a [Vessel of Transformation](../../Ideas/Vessel%20of%20Transformation.md) waardoor mensen kijken op een andere manier naar werk en werkprocessen without the need voor reorganisatie
-
-Superconnectors
-
+<Card title="Superconnectors">
 Creating an ecosystem of high trust by sharing vulnerabilities rather than accomplishments
+</Card>
 
-Rizom
-
+<Card title="Rizom">
 Using *engagement loops* to enhance the collective brain power
+</Card>

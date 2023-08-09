@@ -14,17 +14,28 @@
 
 <style>
 	@import 'open-props/media';
+	.content {
+		max-inline-size: var(--size-lg);
+		margin-inline: auto;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: var(--size-5);
+	}
 
 	[data-section-type='Cases'] :global(> p:first-of-type) {
+		max-inline-size: var(--size-lg);
+		grid-column: span 3;
 		text-align: center;
 		line-height: var(--font-lineheight-2);
 		font-size: var(--font-size-4);
 		font-weight: var(--font-weight-7);
+		padding-block: var(--size-9);
 	}
 
 	[data-section-type='Cases'] :global(> p:first-of-type::after) {
 		display: block;
 		content: '..';
+		text-align: center;
 		line-height: 0.5;
 		font-size: var(--font-size-8);
 		letter-spacing: var(--font-letterspacing-4);

@@ -50,7 +50,6 @@
 
 	.cta-wrapper {
 		display: flex;
-		margin-block-start: var(--size-5);
 		justify-content: center;
 	}
 
