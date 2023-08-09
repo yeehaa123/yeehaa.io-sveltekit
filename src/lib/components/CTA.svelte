@@ -15,16 +15,17 @@
 >
 	<div class="content" data-section-type={title}>
 		<svelte:component this={content} />
-		<div class="cta-wrapper"><a>Connect</a></div>
+		<div class="cta-wrapper"><a href="/about">Connect</a></div>
 	</div>
 	<Blob slot="bottom" />
 </SectionWrapper>
 
 <style>
+	@import 'open-props/media';
 	.content {
 		max-inline-size: var(--size-md);
 		margin-inline: auto;
-		padding-block-start: var(--size-13);
+		padding-block-start: var(--size-7);
 	}
 
 	[data-section-type='Call To Action'] :global(p) {
@@ -64,5 +65,11 @@
 		letter-spacing: var(--font-letterspacing-2);
 		padding-block: var(--size-2);
 		padding-inline: var(--size-4);
+	}
+
+	@media (--lg-n-above) {
+		.content {
+			padding-block-start: var(--size-13);
+		}
 	}
 </style>

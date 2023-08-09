@@ -23,11 +23,12 @@
 	}
 
 	[data-section-type='Cases'] :global(> p:first-of-type) {
-		max-inline-size: var(--size-lg);
+		max-inline-size: var(--size-md);
+		margin-inline: auto;
 		grid-column: span 3;
 		text-align: center;
 		line-height: var(--font-lineheight-2);
-		font-size: var(--font-size-4);
+		font-size: var(--font-size-5);
 		font-weight: var(--font-weight-7);
 		padding-block: var(--size-9);
 	}

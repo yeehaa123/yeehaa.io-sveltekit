@@ -14,7 +14,7 @@
 
 <section data-section-type={title}>
 	<svelte:component this={svgs[title]} />
-	<img class="image" src={`/images/${title}.png`} />
+	<img class="image" src={`/images/${title}.png`} alt={title} />
 	<div class="content">
 		<h3>{title}</h3>
 		<p><slot /></p>
@@ -34,6 +34,7 @@
 		align-items: center;
 		justify-self: center;
 		text-align: center;
+		margin-block-end: var(--size-9);
 	}
 	.content {
 		aspect-ratio: 1 / 1.5;
@@ -76,6 +77,7 @@
 	@media (--lg-n-above) {
 		section {
 			grid-column: span 1;
+			margin-block-end: 0;
 		}
 	}
 </style>
