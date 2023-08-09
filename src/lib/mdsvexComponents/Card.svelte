@@ -37,6 +37,7 @@
 	.content {
 		aspect-ratio: 1 / 1.5;
 		display: flex;
+		position: relative;
 		flex-direction: column;
 		background-color: var(--purp);
 		color: var(--white);
@@ -53,9 +54,11 @@
 	}
 
 	.content a {
-		display: block;
+		position: absolute;
+		bottom: var(--size-5);
+		align-self: center;
 		color: var(--sun);
-		font-size: var(--font-size-4);
+		font-size: var(--font-size-5);
 		margin-block: var(--size-5);
 		font-weight: var(--font-weight-9);
 	}
