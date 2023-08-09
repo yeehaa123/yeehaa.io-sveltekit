@@ -14,7 +14,7 @@
 
 <section data-section-type={title}>
 	<svelte:component this={svgs[title]} />
-	<img class="image" src="/images/intermin.png" />
+	<img class="image" src={`/images/${title}.png`} />
 	<div class="content">
 		<h3>{title}</h3>
 		<p><slot /></p>
