@@ -19,7 +19,7 @@
 		margin-inline: auto;
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		gap: var(--size-5);
+		gap: var(--size-9);
 	}
 
 	[data-section-type='Cases'] :global(> p:first-of-type) {

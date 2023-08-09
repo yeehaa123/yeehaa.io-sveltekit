@@ -14,6 +14,7 @@
 
 <section data-section-type={title}>
 	<svelte:component this={svgs[title]} />
+	<img class="image" src="/images/intermin.png" />
 	<div class="content">
 		<h3>{title}</h3>
 		<p><slot /></p>
@@ -44,6 +45,15 @@
 		border-radius: 110px;
 		padding-block: var(--size-9);
 		padding-inline: var(--size-7);
+		padding-block-start: 140px;
+	}
+	.image {
+		aspect-ratio: 1/1;
+		transform: rotate(45deg);
+		border: 24px solid var(--sun);
+		border-radius: 110px;
+		z-index: 10;
+		margin-block-end: -100px;
 	}
 
 	.content h3 {
