@@ -1,14 +1,15 @@
 <script>
 	import Logo from '$lib/components/Logo.svelte';
+	import NavLink from './NavLink.svelte';
 </script>
 
 <header>
 	<nav>
 		<a href="/"><Logo /></a>
-		<nav>
-			<a href="/about">About</a>
-			<a href="/about">Connect</a>
-		</nav>
+		<ul class="menu">
+			<NavLink href="/about">ABOUT</NavLink>
+			<NavLink href="/about">CONNECT</NavLink>
+		</ul>
 	</nav>
 </header>
 
@@ -25,10 +26,17 @@
 		height: 100%;
 	}
 
-	nav {
+	nav,
+	ul {
 		display: flex;
-		gap: var(--size-4);
 		justify-content: space-between;
+	}
+
+	ul {
+		gap: 0;
+		list-style: none;
+		margin-left: 0;
+		padding-left: 0;
 	}
 
 	@media (--md-n-above) {
