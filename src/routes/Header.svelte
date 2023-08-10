@@ -1,9 +1,12 @@
+<script>
+	import Logo from '$lib/components/Logo.svelte';
+</script>
+
 <header>
 	<nav>
-		<a href="/">Yeehaa</a>
+		<a href="/"><Logo /></a>
 		<nav>
 			<a href="/about">About</a>
-			<a href="/about">Posts</a>
 			<a href="/about">Connect</a>
 		</nav>
 	</nav>

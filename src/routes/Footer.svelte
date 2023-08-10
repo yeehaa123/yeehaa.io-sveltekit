@@ -1,10 +1,15 @@
+<script>
+	import Logo from '$lib/components/Logo.svelte';
+</script>
+
 <footer>
-	<div>SOMETHING!!!</div>
+	<a href="/"><Logo /></a>
 </footer>
 
 <style>
-	div {
+	footer {
 		padding: var(--size-9);
-		max-inline-size: 1100px;
+		max-inline-size: var(--size-sm);
+		margin-inline: auto;
 	}
 </style>

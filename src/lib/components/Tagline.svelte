@@ -20,6 +20,7 @@
 
 <style>
 	[data-section-type='Tagline'] :global(p) {
+		padding-block: var(--size-9);
 		color: var(--white, #fff);
 		text-align: center;
 		font-family: var(--font-sans);
@@ -28,5 +29,10 @@
 		font-weight: var(--font-weight-7);
 		line-height: var(--font-lineheight-3);
 		letter-spacing: var(--font-letterspacing-2);
+	}
+	@media (--sm-n-above) {
+		[data-section-type='Tagline'] :global(p) {
+			padding-block: var(--size-12);
+		}
 	}
 </style>
