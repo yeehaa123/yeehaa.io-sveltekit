@@ -117,4 +117,11 @@
 			margin-block: var(--size-12);
 		}
 	}
+
+	@media (--lg-n-above) {
+		[data-section-type='Principles'] :global(ul) {
+			transform: scale(1.3);
+			margin-block: var(--size-13);
+		}
+	}
 </style>
