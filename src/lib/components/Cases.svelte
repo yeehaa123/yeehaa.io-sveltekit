@@ -13,7 +13,6 @@
 </SectionWrapper>
 
 <style>
-	@import 'open-props/media';
 	.content {
 		max-inline-size: var(--size-lg);
 		margin-inline: auto;
