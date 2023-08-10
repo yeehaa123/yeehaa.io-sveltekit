@@ -21,6 +21,10 @@
 		padding-block: var(--size-4);
 		padding-inline: var(--size-5);
 	}
+	a {
+		height: 100%;
+	}
+
 	nav {
 		display: flex;
 		gap: var(--size-4);
