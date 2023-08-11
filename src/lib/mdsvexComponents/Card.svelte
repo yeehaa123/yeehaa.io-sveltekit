@@ -7,7 +7,7 @@
 	<div class="content">
 		<h3>{title}</h3>
 		<p><slot /></p>
-		<a nhref="/about">view case</a>
+		<a href="/about">view case</a>
 		<div />
 	</div>
 </section>
