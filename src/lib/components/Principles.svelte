@@ -46,14 +46,14 @@
 
 	[data-section-type='Principles'] :global(ul) {
 		--width: 250px;
-		margin-block-start: var(--size-8);
+		margin-block-start: var(--size-9);
 		width: var(--width);
 		height: var(--width);
 		border-radius: 50%;
 		background-color: var(--sun);
 		position: relative;
 		padding-inline-start: 0;
-		transform: scale(0.6);
+		transform: scale(0.65);
 	}
 
 	[data-section-type='Principles'] :global(li) {
@@ -74,16 +74,15 @@
 	[data-section-type='Principles'] :global(li:nth-child(1)) {
 		position: absolute;
 		text-align: center;
-		top: -15%;
+		top: -17%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 	}
-
 	[data-section-type='Principles'] :global(li:nth-child(2)) {
 		position: absolute;
 		text-align: center;
 		top: 25%;
-		left: 123%;
+		left: 125%;
 		transform: translate(-50%, -50%);
 	}
 
@@ -91,23 +90,23 @@
 		position: absolute;
 		text-align: center;
 		top: 25%;
-		left: -23%;
+		left: -25%;
 		transform: translate(-50%, -50%);
 	}
 
 	[data-section-type='Principles'] :global(li:nth-child(4)) {
 		position: absolute;
 		text-align: center;
-		top: 95%;
-		left: -10%;
+		top: 100%;
+		left: 110%;
 		transform: translate(-50%, -50%);
 	}
 
 	[data-section-type='Principles'] :global(li:nth-child(5)) {
 		position: absolute;
 		text-align: center;
-		top: 95%;
-		left: 110%;
+		top: 100%;
+		left: -10%;
 		transform: translate(-50%, -50%);
 	}
 
@@ -121,7 +120,7 @@
 	@media (--lg-n-above) {
 		[data-section-type='Principles'] :global(ul) {
 			transform: scale(1.3);
-			margin-block: var(--size-13);
+			margin-block-start: var(--size-13);
 		}
 	}
 </style>

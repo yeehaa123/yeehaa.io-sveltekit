@@ -32,6 +32,10 @@
 		font-weight: var(--font-weight-9);
 	}
 
+	[data-section-type='Proposition'] :global(h2) {
+		display: none;
+	}
+
 	[data-section-type='Proposition'] :global(> p:nth-of-type(3)) {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);

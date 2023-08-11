@@ -40,4 +40,8 @@
 		font-size: var(--font-size-8);
 		letter-spacing: var(--font-letterspacing-4);
 	}
+
+	[data-section-type='Cases'] :global(h2) {
+		display: none;
+	}
 </style>

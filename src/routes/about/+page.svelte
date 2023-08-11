@@ -1,21 +1,17 @@
 <script>
 	import Quote from '$lib/components/Quote.svelte';
 	import Section from '$lib/components/Section.svelte';
+	import CTA from '$lib/components/CTA.svelte';
 	export let data;
 
-	const c = {
-		Problem: Quote
-	};
+	const c = {};
 
-	const styles = {
-		Problem: { color: 'white', background: 'fire' }
-	};
-
+	const styles = {};
 	export const components = data.contents.map((d) => {
 		return {
 			...d,
 			component: c[d.title] || Section,
-			...(styles[d.title] || { color: 'curtains', background: 'white' })
+			...(styles[d.title] || { color: 'sun', background: 'curtains' })
 		};
 	});
 </script>

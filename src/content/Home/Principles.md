@@ -5,8 +5,8 @@ title: Principles
 
 Yeehaa singular approach to create innovative ecosystems is built upon the following principles
 
-* *Prevent Stagnation*
-* *Celebrate Diversity*
 * *Maximize Trust*
-* *Embrace Technology*
 * *Deliver Simplicity*
+* *Celebrate Diversity*
+* *Embrace Technology*
+* *Prevent Stagnation*
