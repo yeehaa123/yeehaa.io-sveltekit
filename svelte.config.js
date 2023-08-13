@@ -1,11 +1,10 @@
-import adapter from '@sveltejs/adapter-auto'
 import { vitePreprocess } from '@sveltejs/kit/vite'
 import { mdsvex } from 'mdsvex'
 import {visit, SKIP} from 'unist-util-visit'
 import {definitions} from 'mdast-util-definitions'
 import section from "@hbsnow/rehype-sectionize"
 import unwrapImages from 'remark-unwrap-images'
-
+import adapter from '@sveltejs/adapter-static';
 
 
 function transformer(ast) {
@@ -36,7 +35,15 @@ const config = {
 	extensions: ['.svelte', '.md'],
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
 	kit: {
-		adapter: adapter()
+	 adapter: adapter({
+      // default options are shown. On some platforms
+      // these options are set automatically — see below
+      pages: 'build',
+      assets: 'build',
+      fallback: undefined,
+      precompress: false,
+      strict: true
+    })
 	}
 }
 

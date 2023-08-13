@@ -15,7 +15,6 @@
 		"test:unit": "vitest"
 	},
 	"devDependencies": {
-		"@agentofuser/rehype-section": "^1.0.5",
 		"@fontsource/londrina-solid": "^5.0.5",
 		"@hbsnow/rehype-sectionize": "^1.0.7",
 		"@playwright/test": "^1.28.1",
@@ -50,11 +49,9 @@
 		"typescript": "^5.0.0",
 		"unified": "^10.1.2",
 		"vite": "^4.4.2",
-		"vitest": "^0.32.2"
-	},
-	"type": "module",
-	"dependencies": {
+		"vitest": "^0.32.2",
 		"@fontsource/montserrat-alternates": "^5.0.5",
 		"remark-directive": "^2.0.1"
-	}
+	},
+	"type": "module"
 }
