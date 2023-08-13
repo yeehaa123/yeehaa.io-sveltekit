@@ -15,7 +15,7 @@ draft: null
  > – Elvis Presley
 
 Finding examples of [failed trust relations](https://www.theguardian.com/music/2016/apr/29/beyonce-lemonade-jay-z-explainer) has never been difficult, but today it's actually quite a challenge to miss them. Governments don't trust their citizens to stay inside, while citizens don't believe that their governments are acting in their best interest. Strangers are vessels for deadly viruses, and viruses are [dangerous weapons](https://www.nytimes.com/2011/12/21/health/fearing-terrorism-us-asks-journals-to-censor-articles-on-virus.html?_r=1&scp=1&sq=grady,%20fauci&st=cse) developed by foreign governments or [Dr.
-Frankensteins](https://en.wikipedia.org/wiki/The_Clones_of_Dr._Funkenstein). In fact, the contemporary global political landscape closely resembles a [Mexican Standoff](../../Ideas/Mexican%20Standoff.md).
+Frankensteins](https://en.wikipedia.org/wiki/The_Clones_of_Dr._Funkenstein). In fact, the contemporary global political landscape closely resembles a [Mexican Standoff](../../Notes/Mexican%20Standoff.md).
 
 Meanwhile on the internet, things are not looking very bright either. Consumers are constantly forced to accept a [Faustian tradeoff](https://www.scribd.com/doc/315846903/Dr-Faust-s-Internet-Dilemma): either hand over your personal data or give up your social life. Finding a trustworthy source of information has become next to impossible. Knowledge is considered an entertaining conversation starter, but does not hold any weight as such. One man's facts is another's [fake news](https://www.vanityfair.com/news/2020/03/jared-kushner-coronavirus-fake-news).
 

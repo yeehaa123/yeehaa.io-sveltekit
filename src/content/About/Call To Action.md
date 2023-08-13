@@ -7,4 +7,4 @@ Want to make **Big Change** happen together?
 
 Then let’s start small!
 
-[Connect](/about)
+[Connect](../About.md)

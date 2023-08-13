@@ -5,20 +5,32 @@ title: Cases
 
 Here are some examples of Yeehaa’s principles in action
 
-## [Intermin](../Cases/Intermin.md)
+## Case 1
 
-<Card title="Intermin">
-	Technology as a vessel of transformation that enables the organization to reframe work and processes.
-</Card>
+![Intermin.png](../images/Intermin.png)
 
-## [Superconnectors](../Cases/Superconnectors.md)
+### [Intermin](../Cases/Intermin.md)
 
-<Card title="Superconnectors">
-	Creating an ecosystem of high trust by sharing vulnerabilities rather than accomplishments
-</Card>
+Technology as a vessel of transformation that enables the organization to reframe work and processes.
 
-## [Rizom](../Cases/Rizom.md)
+[Connect](../About.md)
 
-<Card title="Rizom">
-	Using engagement Loops to enhance the collective brain power
-</Card>
+## Case 3
+
+![Superconnectors.png](../images/Superconnectors.png)
+
+### [Superconnectors](../Cases/Superconnectors.md)
+
+Creating an ecosystem of high trust by sharing vulnerabilities rather than accomplishments
+
+[Connect](../About.md)
+
+## Case 3
+
+![Rizom.png](../images/Rizom.png)
+
+### [Rizom](../Cases/Rizom.md)
+
+Using engagement Loops to enhance the collective brain power
+
+[Connect](../About.md)

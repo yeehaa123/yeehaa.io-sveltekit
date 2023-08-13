@@ -7,8 +7,8 @@
 	<nav>
 		<a href="/"><Logo /></a>
 		<ul class="menu">
-			<NavLink href="/about">ABOUT</NavLink>
-			<NavLink href="/about">CONNECT</NavLink>
+			<NavLink href="/About">ABOUT</NavLink>
+			<NavLink href="/About">CONNECT</NavLink>
 		</ul>
 	</nav>
 </header>

@@ -26,7 +26,7 @@
 		'Call To Action': { color: 'curtains', background: 'sun' }
 	};
 
-	export const components = data.contents.map((d) => {
+	export const components = data.contents.slice(0, data.contents.length - 0).map((d) => {
 		const { title } = d;
 		return {
 			...d,

@@ -15,7 +15,7 @@
 >
 	<div class="content" data-section-type={title}>
 		<svelte:component this={content} />
-		<div class="cta-wrapper"><a href="/about">Connect</a></div>
+		<div class="cta-wrapper"><a href="/About">Connect</a></div>
 	</div>
 	<Blob slot="bottom" />
 </SectionWrapper>
